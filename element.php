@@ -5,14 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css/element.css">
+    <script src="./js/script.js" defer></script>
 </head>
 
 <body>
+    <header><a href="./index.php">Accueil</a></header>
     <div id="result">
+        <img src="" alt="animal" id="image">
     </div>
 
 </body>
 
-<script src="./js/script.js"></script>
 
 </html>

@@ -1,4 +1,5 @@
 <?php require('./include/bd.php');
+
 if (isset($_GET['search'])) {
     $req = $bdd->prepare("SELECT * FROM `animaux` WHERE `name` LIKE ?");
     $req->execute(['%' . $_GET['search'] . '%']);
