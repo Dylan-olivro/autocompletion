@@ -25,6 +25,8 @@
             <input type="search" id="search-bar" name="search" placeholder="Rechercher..." autocomplete="off" autofocus>
         </form>
 
+        <div id="result2"></div>
+        <hr id="t">
         <div id="result"></div>
     </main>
 

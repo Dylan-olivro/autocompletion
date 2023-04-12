@@ -47,24 +47,31 @@ h1::first-letter {
 }
 
 /* RESULT */
-#result {
+#result,
+#result2 {
   position: relative;
   top: center;
   background-color: #fff;
-  width: 504px;
+  width: 500px;
 }
 .info {
   padding-left: 10px;
   text-decoration: none;
   color: #000;
 }
-#result p {
+#result p,
+#result2 p {
   margin: 0;
   padding: 16px;
 }
-#result p:hover {
+#result p:hover,
+#result2 p:hover {
   background-color: lightgray;
 }
-#result p i {
+#result p i,
+#result2 p i {
   padding-right: 5px;
+}
+#t {
+  margin: 0;
 }
