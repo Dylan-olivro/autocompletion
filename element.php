@@ -10,10 +10,26 @@
 </head>
 
 <body>
-    <header><a href="./index.php">Accueil</a></header>
-    <div id="result">
-        <img src="" alt="animal" id="image">
-    </div>
+    <header>
+
+        <a href="./index.php" id="home">Accueil</a>
+
+        <form method="GET">
+            <input type="text" id="search-bar" name="search" placeholder="Rechercher..." autocomplete="off" autofocus>
+        </form>
+
+        <div id="result2"></div>
+        <hr id="t">
+        <div id="result"></div>
+
+
+    </header>
+    <main>
+
+        <div id="animalName">
+            <img src="" alt="animal" id="image">
+        </div>
+    </main>
 
 </body>
 

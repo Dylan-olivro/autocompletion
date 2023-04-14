@@ -5,11 +5,11 @@
 body {
   background-color: forestgreen;
 }
-header {
+/* header {
   text-align: center;
   margin-top: 10px;
-}
-header a {
+} */
+#home {
   text-decoration: none;
   font-size: 1.5rem;
   border: 1px solid;
@@ -17,7 +17,16 @@ header a {
   border-radius: 5px;
   background-color: #fff;
 }
-#result {
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* height: 100vh; */
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+/* #result {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,7 +35,52 @@ header a {
 #result p {
   font-size: 2rem;
   margin-top: 20px;
-}
+} */
 img {
   width: 400px;
+}
+
+#search-bar {
+  width: 500px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 10px;
+}
+#search-bar::placeholder {
+  padding-left: 20px;
+}
+
+/* RESULT */
+#result,
+#result2 {
+  position: relative;
+  top: center;
+  background-color: #fff;
+  width: 500px;
+}
+.info {
+  padding-left: 10px;
+  text-decoration: none;
+  color: #000;
+}
+#result p,
+#result2 p {
+  margin: 0;
+  padding: 16px;
+}
+#result p:hover,
+#result2 p:hover {
+  background-color: lightgray;
+}
+#result p i,
+#result2 p i {
+  padding-right: 5px;
+}
+#t {
+  margin: 0;
+}
+#animalName {
+  font-size: 2rem;
+  text-align: center;
 }

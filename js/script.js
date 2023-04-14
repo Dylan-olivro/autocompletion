@@ -64,8 +64,8 @@ if (search) {
 const link = window.location.href;
 const id = link.split("=");
 const image = document.getElementById("image");
+const animalName = document.getElementById("animalName");
 // console.log(image);
-// console.log(image.src);
 // console.log(id);
 // console.log("recherche.php/?id=" + id[1]);
 // if(window.location.href)
@@ -79,6 +79,7 @@ fetch("recherche.php/?id=" + id[1])
       let e = document.createElement("p");
       e.innerHTML = "Nom: " + element.name;
       image.src = "./assets/" + element.name + ".jpg";
-      result.appendChild(e);
+      console.log(image);
+      animalName.appendChild(e);
     });
   });

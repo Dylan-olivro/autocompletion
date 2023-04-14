@@ -21,8 +21,9 @@
             <span id="six-letter">E</span>
         </h1>
         <p class="subject">Search Animals</p>
+
         <form method="GET">
-            <input type="search" id="search-bar" name="search" placeholder="Rechercher..." autocomplete="off" autofocus>
+            <input type="text" id="search-bar" name="search" placeholder="Rechercher..." autocomplete="off" autofocus>
         </form>
 
         <div id="result2"></div>
