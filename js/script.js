@@ -78,7 +78,7 @@ fetch("recherche.php/?id=" + id[1])
     data.forEach((element) => {
       let e = document.createElement("p");
       e.innerHTML = "Nom: " + element.name;
-      image.src = "./assets/" + element.name + ".jpg";
+      image.src = "./assets/" + element.name.toLowerCase() + ".jpg";
       console.log(image);
       animalName.appendChild(e);
     });
